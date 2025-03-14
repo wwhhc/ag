@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW M340i</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1d1d1d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 90%;
+            margin: 40px auto;
+            text-align: center;
+        }
+        .car-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .feature {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .feature:hover {
+            transform: scale(1.05);
+        }
+        .feature h3 {
+            color: #4CAF50;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .feature p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .button {
+            background-color: #1d1d1d;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #4CAF50;
+        }
+        footer {
+            background-color: #1d1d1d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BMW M340i</h1>
+    <p>최고의 성능, 최고를 위한 차량</p>
+</header>
+
+<div class="container">
+    <img src="https://example.com/m340i.jpg" alt="BMW M340i" class="car-image">
+
+    <div class="features">
+        <div class="feature">
+            <h3>강력한 성능</h3>
+            <p>BMW M340i는 3.0L 6기통 엔진을 장착하여 382마력의 강력한 출력을 자랑합니다. 0-100km/h 가속은 4.4초에 불과합니다.</p>
+        </div>
+        <div class="feature">
+            <h3>스포츠한 디자인</h3>
+            <p>BMW의 상징적인 M 디자인 요소가 돋보이는 M340i는 날렵한 라인과 강렬한 전면 디자인으로 도로에서 주목을 받습니다.</p>
+        </div>
+        <div class="feature">
+            <h3>첨단 기술</h3>
+            <p>BMW iDrive 시스템과 함께하는 스마트한 운전 경험, 최신 운전 보조 시스템이 완벽하게 결합되어 있습니다.</p>
+        </div>
+    </div>
+
+    <a href="https://www.bmw.com/m340i" class="button" target="_blank">자세히 보기</a>
+</div>
+
+<footer>
+    <p>&copy; 2025 BMW M340i | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
